@@ -1,0 +1,134 @@
+[
+  {
+    "id": "law-001",
+    "name": "Advocate Mohammad Shishir Manir",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Shishir_Monir.jpg",
+    "status": "available",
+    "type": "Criminal & Constitutional Lawyer",
+    "licenseNo": "BDSC-55421",
+    "yearsOfExperience": 18,
+    "consultationFee": 5000,
+    "availability": ["Sunday", "Monday", "Wednesday"]
+  },
+  {
+    "id": "law-002",
+    "name": "Advocate Farhana Islam",
+    "image": "https://randomuser.me/api/portraits/women/21.jpg",
+    "status": "available",
+    "type": "Family Lawyer",
+    "licenseNo": "BDL-22311",
+    "yearsOfExperience": 8,
+    "consultationFee": 2000,
+    "availability": ["Monday", "Wednesday", "Thursday"]
+  },
+  {
+    "id": "law-003",
+    "name": "Barrister Tanvir Hasan",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "status": "unavailable",
+    "type": "Corporate Lawyer",
+    "licenseNo": "BDL-33456",
+    "yearsOfExperience": 15,
+    "consultationFee": 5000,
+    "availability": ["Sunday", "Tuesday"]
+  },
+  {
+    "id": "law-004",
+    "name": "Advocate Nusrat Jahan",
+    "image": "https://randomuser.me/api/portraits/women/33.jpg",
+    "status": "available",
+    "type": "Immigration Lawyer",
+    "licenseNo": "BDL-44567",
+    "yearsOfExperience": 6,
+    "consultationFee": 2500,
+    "availability": ["Tuesday", "Wednesday", "Saturday"]
+  },
+  {
+    "id": "law-005",
+    "name": "Barrister Imran Chowdhury",
+    "image": "https://randomuser.me/api/portraits/men/44.jpg",
+    "status": "available",
+    "type": "Business Lawyer",
+    "licenseNo": "BDL-55678",
+    "yearsOfExperience": 10,
+    "consultationFee": 4000,
+    "availability": ["Sunday", "Thursday"]
+  },
+  {
+    "id": "law-006",
+    "name": "Advocate Shila Akter",
+    "image": "https://randomuser.me/api/portraits/women/45.jpg",
+    "status": "unavailable",
+    "type": "Property Lawyer",
+    "licenseNo": "BDL-66789",
+    "yearsOfExperience": 9,
+    "consultationFee": 2200,
+    "availability": ["Monday", "Friday"]
+  },
+  {
+    "id": "law-007",
+    "name": "Barrister Rafiq Mahmud",
+    "image": "https://randomuser.me/api/portraits/men/55.jpg",
+    "status": "available",
+    "type": "Tax Lawyer",
+    "licenseNo": "BDL-77890",
+    "yearsOfExperience": 14,
+    "consultationFee": 4500,
+    "availability": ["Sunday", "Wednesday"]
+  },
+  {
+    "id": "law-008",
+    "name": "Advocate Mahin Kabir",
+    "image": "https://randomuser.me/api/portraits/men/66.jpg",
+    "status": "available",
+    "type": "Civil Lawyer",
+    "licenseNo": "BDL-88901",
+    "yearsOfExperience": 7,
+    "consultationFee": 1800,
+    "availability": ["Tuesday", "Thursday", "Saturday"]
+  },
+  {
+    "id": "law-009",
+    "name": "Barrister Sadia Karim",
+    "image": "https://randomuser.me/api/portraits/women/67.jpg",
+    "status": "unavailable",
+    "type": "Human Rights Lawyer",
+    "licenseNo": "BDL-99012",
+    "yearsOfExperience": 11,
+    "consultationFee": 3500,
+    "availability": ["Monday", "Wednesday"]
+  },
+  {
+    "id": "law-010",
+    "name": "Advocate Rashed Hossain",
+    "image": "https://randomuser.me/api/portraits/men/77.jpg",
+    "status": "available",
+    "type": "Labor Lawyer",
+    "licenseNo": "BDL-11223",
+    "yearsOfExperience": 5,
+    "consultationFee": 1500,
+    "availability": ["Sunday", "Thursday"]
+  },
+  {
+    "id": "law-011",
+    "name": "Barrister Mehedi Hasan",
+    "image": "https://randomuser.me/api/portraits/men/88.jpg",
+    "status": "available",
+    "type": "Environmental Lawyer",
+    "licenseNo": "BDL-22334",
+    "yearsOfExperience": 13,
+    "consultationFee": 4200,
+    "availability": ["Tuesday", "Friday"]
+  },
+  {
+    "id": "law-012",
+    "name": "Advocate Tasnim Rahman",
+    "image": "https://randomuser.me/api/portraits/women/89.jpg",
+    "status": "unavailable",
+    "type": "Divorce Lawyer",
+    "licenseNo": "BDL-33445",
+    "yearsOfExperience": 6,
+    "consultationFee": 2100,
+    "availability": ["Monday", "Saturday"]
+  }
+]
