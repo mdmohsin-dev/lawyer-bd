@@ -13,7 +13,7 @@
   {
     "id": "law-002",
     "name": "Advocate Farhana Islam",
-    "image": "https://randomuser.me/api/portraits/women/21.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "available",
     "type": "Family Lawyer",
     "licenseNo": "BDL-22311",
@@ -24,7 +24,7 @@
   {
     "id": "law-003",
     "name": "Barrister Tanvir Hasan",
-    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "unavailable",
     "type": "Corporate Lawyer",
     "licenseNo": "BDL-33456",
@@ -35,7 +35,7 @@
   {
     "id": "law-004",
     "name": "Advocate Nusrat Jahan",
-    "image": "https://randomuser.me/api/portraits/women/33.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "available",
     "type": "Immigration Lawyer",
     "licenseNo": "BDL-44567",
@@ -46,7 +46,7 @@
   {
     "id": "law-005",
     "name": "Barrister Imran Chowdhury",
-    "image": "https://randomuser.me/api/portraits/men/44.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "available",
     "type": "Business Lawyer",
     "licenseNo": "BDL-55678",
@@ -57,7 +57,7 @@
   {
     "id": "law-006",
     "name": "Advocate Shila Akter",
-    "image": "https://randomuser.me/api/portraits/women/45.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "unavailable",
     "type": "Property Lawyer",
     "licenseNo": "BDL-66789",
@@ -68,7 +68,7 @@
   {
     "id": "law-007",
     "name": "Barrister Rafiq Mahmud",
-    "image": "https://randomuser.me/api/portraits/men/55.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "available",
     "type": "Tax Lawyer",
     "licenseNo": "BDL-77890",
@@ -79,7 +79,7 @@
   {
     "id": "law-008",
     "name": "Advocate Mahin Kabir",
-    "image": "https://randomuser.me/api/portraits/men/66.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "available",
     "type": "Civil Lawyer",
     "licenseNo": "BDL-88901",
@@ -90,7 +90,7 @@
   {
     "id": "law-009",
     "name": "Barrister Sadia Karim",
-    "image": "https://randomuser.me/api/portraits/women/67.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "unavailable",
     "type": "Human Rights Lawyer",
     "licenseNo": "BDL-99012",
@@ -101,7 +101,7 @@
   {
     "id": "law-010",
     "name": "Advocate Rashed Hossain",
-    "image": "https://randomuser.me/api/portraits/men/77.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "available",
     "type": "Labor Lawyer",
     "licenseNo": "BDL-11223",
@@ -112,7 +112,7 @@
   {
     "id": "law-011",
     "name": "Barrister Mehedi Hasan",
-    "image": "https://randomuser.me/api/portraits/men/88.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "available",
     "type": "Environmental Lawyer",
     "licenseNo": "BDL-22334",
@@ -123,7 +123,7 @@
   {
     "id": "law-012",
     "name": "Advocate Tasnim Rahman",
-    "image": "https://randomuser.me/api/portraits/women/89.jpg",
+    "image": "https://i.ibb.co.com/pvf3HJcC/lawyer.png",
     "status": "unavailable",
     "type": "Divorce Lawyer",
     "licenseNo": "BDL-33445",
