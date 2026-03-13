@@ -6,7 +6,7 @@ const Lawyer = ({lawyer}) => {
 
 
     return (
-        <div className="w-full border border-[#14141426] p-5 flex items-center gap-10 rounded-xl">
+        <div className="w-full border border-[#14141426] p-5 flex flex-col md:flex-row lg:flex-col xl:flex-row justify-center  items-center gap-10 rounded-xl">
             <img className="w-48 h-48 rounded-xl" src={image} alt="" />
             <div className="w-full">
                 <h3 className="text-2xl font-bold">{name}</h3>

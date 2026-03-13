@@ -1,10 +1,12 @@
 import { createContext, useEffect, useState } from "react";
+import { getLawyer } from "../utility/addToDb";
 
 export const LawyerContext = createContext([])
 
 const LawyerProvider = ({ children }) => {
 
     const [lawyers, setLwayers] = useState([])
+    const [storedLawyer, setStoredLawyer] = useState()
 
     useEffect(() => {
         fetch("/lawyer.json")
@@ -12,8 +14,14 @@ const LawyerProvider = ({ children }) => {
             .then(data => setLwayers(data))
     }, [])
 
+    useEffect(() => {
+        const data = getLawyer()
+        setStoredLawyer(data)
+    }, [])
+
+
     const value = {
-        lawyers, setLwayers
+        lawyers, setLwayers, storedLawyer,setStoredLawyer
     }
 
     return (

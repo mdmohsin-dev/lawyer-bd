@@ -15,7 +15,7 @@ const Lawyers = () => {
                 <h3 className="text-4xl font-bold">Our Best Lawyers</h3>
                 <p className="pt-4">Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
             </div>
-            <div className="grid grid-cols-2 gap-11 mt-10">
+            <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-11 mt-10">
                 {
                     showLawyers.map(lawyer => <Lawyer lawyer={lawyer}></Lawyer>)
                 }

@@ -6,7 +6,7 @@ import { addLawyerToDb, getLawyer } from '../../utility/addToDb';
 
 const LawyersDetails = () => {
 
-    const { lawyers } = useContext(LawyerContext)
+    const { lawyers,storedLawyer,setStoredLawyer } = useContext(LawyerContext)
     const { id } = useParams()
     const navigate = useNavigate()
 
@@ -22,7 +22,7 @@ const LawyersDetails = () => {
     const weekDay = date.toLocaleDateString("en-US", { weekday: "long" })
     const today = availability.includes(weekDay)
 
-    const storedLawyer = getLawyer()
+    
     const findStordLwayer = storedLawyer.includes(lawyerId)
 
     const handleBooking = async () => {
@@ -44,6 +44,7 @@ const LawyersDetails = () => {
         }
 
         addLawyerToDb(lawyerId)
+        setStoredLawyer([...storedLawyer,lawyerId])
         await Swal.fire({
             icon: "success",
             title: "Booking successfully",
@@ -70,7 +71,8 @@ const LawyersDetails = () => {
                     <p>License No: {licenseNo}</p>
                     <div className='flex gap-4 items-center mt-4'>
                         Availability{
-                            availability.map(avilable => <p className='bg-green-50 text-green-500 py-1 px-4 rounded-3xl'>{avilable}</p>)
+                            availability.map((avilable,idx) => <p key={idx}
+                            className='bg-green-50 text-green-500 py-1 px-4 rounded-3xl'>{avilable}</p>)
                         }
                     </div>
                 </div>
