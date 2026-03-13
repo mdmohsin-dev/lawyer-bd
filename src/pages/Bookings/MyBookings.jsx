@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { LawyerContext } from '../../providers/LawyerProvider';
 import DisplayBookings from './DisplayBookings';
-import Chart from '../../components/chart/chart';
+// import Chart from '../../components/chart/chart';
 
 const MyBookings = () => {
 
