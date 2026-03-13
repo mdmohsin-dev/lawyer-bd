@@ -11,9 +11,9 @@ const MyBookings = () => {
 
     return (
         <div>
-            <Chart></Chart>
+            {/* <Chart></Chart> */}
             <div className='text-center text-black mt-10'>
-                <h1 className='text-4xl font-bold'>My Appointmets</h1>
+                <h1 className='md:text-4xl text-3xl font-bold'>My Appointmets</h1>
                 <p className='pt-4'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
 
                 <div className='mt-16'>

@@ -19,7 +19,7 @@ const Footer = () => {
                     <h3 className='text-3xl font-bold'>Law.BD</h3>
                 </div>
 
-                <div className='mt-10'>
+                <div className='hidden md:flex justify-center mt-10'>
                     <ul className="flex gap-9 justify-center">
                         {footerLinks}
                     </ul>

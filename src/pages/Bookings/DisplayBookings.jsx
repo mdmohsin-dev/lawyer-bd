@@ -30,7 +30,7 @@ const DisplayBookings = ({ bookedLawyer }) => {
 
     return (
         <div className='border border-[#14141426] p-6 rounded-2xl mb-12'>
-            <div className='flex justify-between items-center'>
+            <div className='flex flex-col md:flex-row justify-between md:items-center items-start md:gap-0 gap-5'>
                 <div className=' flex flex-col items-start gap-1'>
                     <p className='text-2xl font-bold'>{name}</p>
                     <p>{type}</p>
@@ -38,7 +38,7 @@ const DisplayBookings = ({ bookedLawyer }) => {
                 <p>Appointment Fee: {consultationFee}</p>
             </div>
             <button onClick={() => handleCancleAppointment(id)}
-                className='cursor-pointer border bg-transparent w-full py-3 rounded-3xl border-red-500 text-red-500 mt-7 font-medium'>Cancel Appointment</button>
+                className='cursor-pointer border bg-transparent w-full py-3 rounded-3xl border-red-500 text-red-500 mt-10 font-medium'>Cancel Appointment</button>
         </div>
     );
 };

@@ -8,7 +8,7 @@
     "licenseNo": "BDSC-55421",
     "yearsOfExperience": 18,
     "consultationFee": 5000,
-    "availability": ["Sunday", "Monday", "Wednesday"]
+    "availability": ["Saturday","Sunday", "Monday", "Wednesday"]
   },
   {
     "id": "law-002",
@@ -30,7 +30,7 @@
     "licenseNo": "BDL-33456",
     "yearsOfExperience": 15,
     "consultationFee": 5000,
-    "availability": ["Sunday", "Tuesday"]
+    "availability": ["Saturday","Sunday", "Tuesday"]
   },
   {
     "id": "law-004",
@@ -41,7 +41,7 @@
     "licenseNo": "BDL-44567",
     "yearsOfExperience": 6,
     "consultationFee": 2500,
-    "availability": ["Tuesday", "Wednesday", "Saturday"]
+    "availability": ["Saturday","Tuesday", "Wednesday", "Saturday"]
   },
   {
     "id": "law-005",
