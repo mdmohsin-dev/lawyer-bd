@@ -16,11 +16,18 @@ const MyBookings = () => {
                 <h1 className='md:text-4xl text-3xl font-bold'>My Appointmets</h1>
                 <p className='pt-4'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
 
-                <div className='mt-16'>
-                    {
-                        bookdLawyers.map(bookedLawyer => <DisplayBookings key={bookedLawyer.id} bookedLawyer={bookedLawyer}></DisplayBookings>)
-                    }
-                </div>
+                {
+                    bookdLawyers.length < 1 ?
+                        <div className='bg-[#F3F3F3] py-10 px-7 md:py-20 md:px-14 text-black text-center rounded-2xl my-14'>
+                            <h3 className='md:text-3xl text-2xl font-bold'>No appointments booked yet.</h3>
+                        </div>
+                        :
+                        <div className='mt-16'>
+                            {
+                                bookdLawyers.map(bookedLawyer => <DisplayBookings key={bookedLawyer.id} bookedLawyer={bookedLawyer}></DisplayBookings>)
+                            }
+                        </div>
+                }
 
             </div>
         </div>
